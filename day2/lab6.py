@@ -10,6 +10,6 @@
 class1=int(input("Enter the number of students in 1st class "))
 class2=int(input("Enter the number of studnets in 2nd class "))
 class3=int(input("Enter the number of students in 3rd class "))
-table1 = (class1 //2 + class2 //2 + class3 // 2)
+table1 = (class1 // 2 + class2 // 2 + class3 // 2)
 table2=  (class1 % 2 + class2 % 2 + class3 % 2)
 print("So,we need {} desks in total".format(table1+table2))
