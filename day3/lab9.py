@@ -11,8 +11,7 @@ for i in range(0, 3):
     if user == username1 and password == password1:
         print("You are logged in successfully")
         break
-    # else:
-    #     print("invalid credentials")
+    
     elif i<3:
         if user != username1 and password != password1 and i<3:
             print("Invalid Credentials Try again")
