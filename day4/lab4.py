@@ -1,12 +1,8 @@
-#Ask user to enter age, gender ( M or F ) and then using following rules print their place of service.
-#if employee is female, then she will work only in urban areas.
-# if employee is a male and age is in between 20 to 40 then he may work in anywhere
-# if employee is male and age is in between 40 t0 60 then he will work in urban areas only.
-# And any other input of age should print "ERROR".
-
-print("enter a number")
-number = int(input())
-if number<0:
-    print(number*-1)
+#Write a program to print absolute vlaue of a number entered by user. E.g.-
+#INPUT: 1        OUTPUT: 1
+#INPUT: -1        OUTPUT: 1
+a=int(input("Enter a number."))
+if a<0:
+    print(a*-1)
 else:
-    print(number)
+    print(a)
